@@ -1,0 +1,6 @@
+{
+  "name": "Chronoterra — Temporal Image Change Detection",
+  "description": "Precision image change detection for satellite, aerial, and drone imagery. Filter seasonal noise, align mismatched angles, and quantify shifts down to the square meter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
