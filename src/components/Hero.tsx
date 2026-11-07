@@ -164,10 +164,11 @@ export const Hero: React.FC<HeroProps> = ({
 
             <button
               onClick={onOpenStudioModal}
-              className="inline-flex items-center gap-2 text-sm font-medium text-[#0F1114] hover:text-[#FF5B2E] transition-colors cursor-pointer group"
+              className="inline-flex items-center gap-2.5 px-4 py-2.5 rounded-md border border-[#0F1114] bg-white text-sm font-medium text-[#0F1114] hover:border-[#FF5B2E] hover:text-[#FF5B2E] transition-all cursor-pointer group shadow-sm"
             >
-              <span>Try with your images in Live Studio</span>
-              <span className="font-mono text-xs transition-transform group-hover:translate-x-0.5">→</span>
+              <span className="w-2 h-2 rounded-full bg-[#FF5B2E] animate-pulse" />
+              <span>Open AI Studio Sandbox (Live Examples & Results)</span>
+              <span className="font-mono text-xs transition-transform group-hover:translate-x-1">→</span>
             </button>
           </div>
         </div>
